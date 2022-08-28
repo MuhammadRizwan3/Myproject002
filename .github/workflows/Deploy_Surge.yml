@@ -38,7 +38,7 @@ jobs:
        
       # build react app
       - name: Build react app
-        run:  actions/build-yarn-npm@master
+        run:  yarn build
       
       # Install Surge
       - name: Install surge
