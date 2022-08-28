@@ -38,7 +38,7 @@ jobs:
        
       # build react app
       - name: Build react app
-        run: yarn build
+        run:  linchpin/action-build-yarn-npm@master
       
       # Install Surge
       - name: Install surge
